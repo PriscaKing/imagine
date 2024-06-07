@@ -143,32 +143,32 @@ Math.max(34,32,37);
 Number('2')+2
 
 
-// //strings in JavaScript
-// //concatenation
-// const firstname = 'Priscilla';
-// const lastname = 'King';
-// firstname +  ' ' +  lastname;
+//strings in JavaScript
+//concatenation
+const firstname = 'Priscilla';
+const lastname = 'King';
+firstname +  ' ' +  lastname;
 
 
-// //Template Literal
-// '${firstname}  ${lastname}';
+//Template Literal
+'${firstname}  ${lastname}';
 
-// let fullName = 'priscilla king'
+let fullName = 'priscilla king'
 
-// fullName.length
-// fullName.toUpperCase()
-// fullName.toLowerCase()
-// fullName.charAt(5)
-// fullName.charAt(7)
-// fullName.slice(6,11)
-// fullName.split('')
-// fullName.replace('priscilla','king')
-// fullName.indexOf('illa')
+fullName.length
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(5)
+fullName.charAt(7)
+fullName.slice(6,11)
+fullName.split('')
+fullName.replace('priscilla','king')
+fullName.indexOf('illa')
 
-// //string conversion
-// Number('3.243')
-// parseInt('3.243')
-// parseFloat('3.243')
-// let amount = 1800
-// console.log('GHS${amount}')
-// amount.toString()
+//string conversion
+Number('3.243')
+parseInt('3.243')
+parseFloat('3.243')
+let amount = 1800
+console.log('GHS${amount}')
+amount.toString()
