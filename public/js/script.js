@@ -232,3 +232,134 @@ users;
 
 
 
+// Array Methods in JavaScript
+
+// Write a function that will take a user with firstname,lastname and return fullname;
+
+//class code
+// function fullName(user){
+//   return user.firstname + ' ' + user.lastname;
+//   //return `${user.firstname} ${user.lastname}`;
+// }
+
+// const user = {
+//   firstname: 'Priscilla',
+//   lastname: 'King'
+// }
+// fullName(user);
+
+
+
+//class code
+// function fullName(user){
+//   return {
+//     ...user,
+//    fullName: `${user.firstname} ${user.lastname}`
+//   }
+//   }
+
+
+// const user = {
+//   firstname: 'Priscilla',
+//   lastname: 'King'
+// }
+// fullName(user);
+
+
+// //Array map
+// const users = [
+//   { firstname: 'Michael', lastname:'Hammond'},
+//   { firstname: 'Simon', lastname:'Kissi'},
+//   { firstname: 'Segoe', lastname:'Sherif'},
+//   { firstname: 'Nat', lastname:'Kumi'},
+//   { firstname: 'Seth', lastname:'Ham'},
+//   { firstname: 'Naana', lastname:'Mond'},
+// ]
+// users.map(fullName)
+
+
+
+
+
+
+//Square of numbers
+function square(number) {
+  return number ** 2;
+}
+square(6);
+
+const numbers = [9, 8, 7, 6];
+numbers.map(square);
+
+
+//Array filter
+function isEven(number) {
+  return number % 2 === 0;
+}
+isEven(6);
+numbers.filter(isEven);
+
+
+function isOdd(number) {
+  return number % 3 === 0;
+}
+isOdd(9)
+numbers.filter(isOdd);
+
+
+
+
+
+
+// //Write a function that will allow a user to reset their password
+// const user = {
+//   email: 'mickeymond@yahoo.com',
+//   password: '1234',
+// }
+
+// //p-try
+// // function reset(password){ 
+// //   if (!password.includes('1234')){
+// //     return 'reset password';
+// //   } else {
+// //     return 'valid'
+// //   }
+// // }
+// //  reset('');
+
+
+// //class attempt-1
+// // function resetPassword(email, newPassword){
+// //   //Update password with new one
+// //   user.password = newPassword;
+// //     // return 'Password reset successful'
+// //   }
+// // resetPassword();
+// // user;
+// // // newPassword;
+
+
+
+function resetPassword(email, newPassword) {
+  ///check if email and new password was provided
+  if (!email || !newPassword) {
+    return "Email or prassword not provided";
+  }
+
+  //Check if provided email is correct
+  if (email === user.email) {
+    //Update password with new one
+    user.password = newPassword;
+    return "Password reset successful";
+  }
+  if (email !== user.email) {
+    return "Invalid email";
+  }
+}
+
+user;
+resetPassword("mickeymond@outlook.com");
+user;
+
+
+
