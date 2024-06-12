@@ -174,7 +174,7 @@ console.log('GHS${amount}')
 amount.toString()
 
 
-// Array in JavaScript
+// Arrays in JavaScript
 
 //Write a function that will add a participant to our Google Classroom
 
@@ -229,87 +229,6 @@ const users = [
   }
 ];
 users;
-
-
-
-// Array Methods in JavaScript
-
-// Write a function that will take a user with firstname,lastname and return fullname;
-
-//class code
-// function fullName(user){
-//   return user.firstname + ' ' + user.lastname;
-//   //return `${user.firstname} ${user.lastname}`;
-// }
-
-// const user = {
-//   firstname: 'Priscilla',
-//   lastname: 'King'
-// }
-// fullName(user);
-
-
-
-//class code
-// function fullName(user){
-//   return {
-//     ...user,
-//    fullName: `${user.firstname} ${user.lastname}`
-//   }
-//   }
-
-
-// const user = {
-//   firstname: 'Priscilla',
-//   lastname: 'King'
-// }
-// fullName(user);
-
-
-// //Array map
-// const users = [
-//   { firstname: 'Michael', lastname:'Hammond'},
-//   { firstname: 'Simon', lastname:'Kissi'},
-//   { firstname: 'Segoe', lastname:'Sherif'},
-//   { firstname: 'Nat', lastname:'Kumi'},
-//   { firstname: 'Seth', lastname:'Ham'},
-//   { firstname: 'Naana', lastname:'Mond'},
-// ]
-// users.map(fullName)
-
-
-
-
-
-
-//Square of numbers
-function square(number) {
-  return number ** 2;
-}
-square(6);
-
-const numbers = [9, 8, 7, 6];
-numbers.map(square);
-
-
-//Array filter
-function isEven(number) {
-  return number % 2 === 0;
-}
-isEven(6);
-numbers.filter(isEven);
-
-
-function isOdd(number) {
-  return number % 3 === 0;
-}
-isOdd(9)
-numbers.filter(isOdd);
-
-
-
-
-
 
 
 
